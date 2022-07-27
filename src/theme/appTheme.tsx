@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
         color:'white',
         fontSize:60,
         textAlign:'right',
+        marginBottom:10
     },
     resultadoSmall:{
         color:'rgba(225,225,225,0.5)', 
@@ -23,14 +24,16 @@ export const styles = StyleSheet.create({
     },
     fila:{
         flexDirection:'row',
-        justifyContent:'center'
+        justifyContent:'center',
+        marginBottom:18,
+        paddingHorizontal:10,
     },
     button:{
         height:80,
         width:80,
-        backgroundColor:'#9B9B9B',
         borderRadius:100,
-        justifyContent:'center'
+        justifyContent:'center',
+        marginHorizontal:10
     },
     buttonText:{
         textAlign:'center',
